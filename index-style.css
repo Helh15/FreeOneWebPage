@@ -85,7 +85,7 @@ main p {
     animation-delay: 2.5s;
 }
 
-main a {
+main a, .start-btn {
     text-decoration: none;
     color: black;
     font-family: 'Changa', sans-serif;
@@ -114,6 +114,7 @@ main a:hover {
     /* box-shadow: 3px 3px 20px 1px rgba(253,221,138,0.7); */
 
     box-shadow: 3px 3px 20px 1px  rgba(255, 255, 255, 0.36);
+    scale: 1.1;
 
 }
 
