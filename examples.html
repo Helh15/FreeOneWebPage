@@ -59,6 +59,10 @@
                 grid-template-rows: 0.1fr repeat(4, 1fr) 0.1fr;
             }
 
+            .parent div {
+                height: 60vh;
+            }
+
             .div1 {
                 grid-area: 2 / 2 / 3 / 3;
             }
@@ -75,13 +79,7 @@
                 grid-area: 5 / 2 / 6 / 3;
             }
         }
-        
-        @media screen and (max-width: 375px) {
-        .parent {
-             height: 60vh;
-        }
-        }
-        
+
     </style>
 </head>
 
